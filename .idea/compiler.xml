@@ -9,7 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="online-team" />
+        <module name="Order80" />
+        <module name="team-api-commons" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-commons" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

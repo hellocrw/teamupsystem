@@ -1,10 +1,10 @@
-package crw.online.team.controller.team;
+package crw.online.team.controller.project;
 
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import org.springframework.web.bind.annotation.*;
-import crw.online.team.service.team.ITeamService;
-import crw.online.team.entity.team.Team;
+import crw.online.team.service.project.IProjectService;
+import crw.online.team.entity.project.Project;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
@@ -20,35 +20,35 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author caorongwu
- * @since 2020-08-16
+ * @since 2020-08-17
  */
 @Api(tags = {""})
 @RestController
-@RequestMapping("//team")
-public class TeamController {
+@RequestMapping("//project")
+public class ProjectController {
 
     private Logger log = LoggerFactory.getLogger(getClass());
 
     @Resource
-    private ITeamService teamService;
+    private IProjectService projectService;
 
 
     @ApiOperation(value = "新增")
     @PostMapping()
-    public int add(@RequestBody Team team){
-        return teamService.add(team);
+    public int add(@RequestBody Project project){
+        return projectService.add(project);
     }
 
     @ApiOperation(value = "删除")
     @DeleteMapping("{id}")
     public int delete(@PathVariable("id") Long id){
-        return teamService.delete(id);
+        return projectService.delete(id);
     }
 
     @ApiOperation(value = "更新")
     @PutMapping()
-    public int update(@RequestBody Team team){
-        return teamService.updateData(team);
+    public int update(@RequestBody Project project){
+        return projectService.updateData(project);
     }
 
     @ApiOperation(value = "查询分页数据")
@@ -57,20 +57,15 @@ public class TeamController {
         @ApiImplicitParam(name = "pageCount", value = "每页条数")
     })
     @GetMapping()
-    public IPage<Team> findListByPage(@RequestParam Integer page,
+    public IPage<Project> findListByPage(@RequestParam Integer page,
                                    @RequestParam Integer pageCount){
-        return teamService.findListByPage(page, pageCount);
+        return projectService.findListByPage(page, pageCount);
     }
 
     @ApiOperation(value = "id查询")
     @GetMapping("{id}")
-    public Team findById(@PathVariable Long id){
-        return teamService.findById(id);
-    }
-
-    @GetMapping("/payment")
-    public String payment(){
-        return "payment";
+    public Project findById(@PathVariable Long id){
+        return projectService.findById(id);
     }
 
 }

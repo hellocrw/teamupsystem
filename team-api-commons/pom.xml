@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>online-team</artifactId>
+    <artifactId>team-api-commons</artifactId>
 
     <dependencies>
         <!--springboot 启动器-->
@@ -39,6 +39,7 @@
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.3.2</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity-engine-core</artifactId>
@@ -48,6 +49,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
+
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -59,14 +61,15 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.7.0</version>
         </dependency>
+
         <!--eureka client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>`
         <!--<dependency>-->
-            <!--<groupId>com.alibaba</groupId>-->
-            <!--<artifactId>druid-spring-boot-starter</artifactId>-->
+        <!--<groupId>com.alibaba</groupId>-->
+        <!--<artifactId>druid-spring-boot-starter</artifactId>-->
         <!--</dependency>-->
         <!--mysql-connector-java-->
         <dependency>
@@ -101,7 +104,11 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
     </dependencies>
-
 
 </project>

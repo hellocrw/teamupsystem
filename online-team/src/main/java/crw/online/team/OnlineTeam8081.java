@@ -10,6 +10,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 public class OnlineTeam8081 {
     public static void main(String[] args) {
-        SpringApplication.run(OnlineTeam8081.class);
+        SpringApplication.run(OnlineTeam8081.class, args);
     }
 }
