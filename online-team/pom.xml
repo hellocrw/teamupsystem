@@ -63,7 +63,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>`
+        </dependency>
+        <!-- hystrix服务降级-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>-->
+        <!--</dependency>-->
         <!--<dependency>-->
             <!--<groupId>com.alibaba</groupId>-->
             <!--<artifactId>druid-spring-boot-starter</artifactId>-->
