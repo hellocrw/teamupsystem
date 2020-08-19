@@ -7,16 +7,24 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
+/**
+ * 子模块: Order服务模块的测试类
+ */
 @RestController
 @Slf4j
 public class OrderController {
-    public static final String ONLINE_TEAM_URL = "http://localhost:8081";
+    public static final String ONLINE_TEAM_URL = "http://team-01/api/test";
 
     @Resource
     private RestTemplate restTemplate;
 
-    @GetMapping("order/consumer")
+    @GetMapping("/all")
     public String consumer(){
-        return restTemplate.getForObject(ONLINE_TEAM_URL + "/team/payment", String.class);
+        return restTemplate.getForObject(ONLINE_TEAM_URL + "/", String.class);
+    }
+
+    @GetMapping("/demo01")
+    public String demo(){
+        return "Order 80";
     }
 }

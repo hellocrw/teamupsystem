@@ -12,6 +12,7 @@
       <module>eureka</module>
       <module>Order80</module>
       <module>team-api-commons</module>
+      <module>auth-management</module>
     </modules>
     <packaging>pom</packaging>
 
