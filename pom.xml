@@ -13,6 +13,7 @@
       <module>Order80</module>
       <module>team-api-commons</module>
       <module>auth-management</module>
+      <module>Gateway</module>
     </modules>
     <packaging>pom</packaging>
 

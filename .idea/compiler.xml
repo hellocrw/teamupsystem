@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="auth-management" />
         <module name="eureka" />
+        <module name="Gateway" />
         <module name="online-team" />
         <module name="Order80" />
         <module name="team-api-commons" />
