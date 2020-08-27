@@ -1,5 +1,6 @@
 package crw.online.team.controller.onlineteam;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import org.springframework.web.bind.annotation.*;
@@ -52,10 +53,10 @@ public class OnlineTeamInfoController {
     }
 
     @ApiOperation(value = "查询分页数据")
-    @ApiImplicitParams({
-        @ApiImplicitParam(name = "page", value = "页码"),
-        @ApiImplicitParam(name = "pageCount", value = "每页条数")
-    })
+//    @ApiImplicitParams({
+//        @ApiImplicitParam(name = "page", value = "页码"),
+//        @ApiImplicitParam(name = "pageCount", value = "每页条数")
+//    })
     @GetMapping()
     public IPage<OnlineTeamInfo> findListByPage(@RequestParam Integer page,
                                    @RequestParam Integer pageCount){
