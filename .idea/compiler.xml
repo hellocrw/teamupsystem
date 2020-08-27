@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="auth-management" />
         <module name="eureka" />
-        <module name="Gateway" />
+        <module name="gateway" />
         <module name="online-team" />
         <module name="Order80" />
         <module name="team-api-commons" />
@@ -17,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-commons" target="8" />
+      <module name="Gateway" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

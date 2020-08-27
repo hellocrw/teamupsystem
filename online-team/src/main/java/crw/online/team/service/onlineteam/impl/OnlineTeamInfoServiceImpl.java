@@ -24,8 +24,7 @@ public class OnlineTeamInfoServiceImpl extends ServiceImpl<OnlineTeamInfoMapper,
     public  IPage<OnlineTeamInfo> findListByPage(Integer page, Integer pageCount){
         IPage<OnlineTeamInfo> wherePage = new Page<>(page, pageCount);
         OnlineTeamInfo where = new OnlineTeamInfo();
-
-        return   baseMapper.selectPage(wherePage, Wrappers.query(where));
+        return baseMapper.selectPage(wherePage, Wrappers.query(where));
     }
 
     @Override
