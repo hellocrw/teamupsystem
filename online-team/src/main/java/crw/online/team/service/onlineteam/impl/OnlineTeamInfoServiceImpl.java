@@ -15,7 +15,7 @@ import com.baomidou.mybatisplus.core.toolkit.Wrappers;
  * </p>
  *
  * @author caorongwu
- * @since 2020-08-18
+ * @since 2020-12-14
  */
 @Service
 public class OnlineTeamInfoServiceImpl extends ServiceImpl<OnlineTeamInfoMapper, OnlineTeamInfo> implements IOnlineTeamInfoService {
@@ -24,7 +24,8 @@ public class OnlineTeamInfoServiceImpl extends ServiceImpl<OnlineTeamInfoMapper,
     public  IPage<OnlineTeamInfo> findListByPage(Integer page, Integer pageCount){
         IPage<OnlineTeamInfo> wherePage = new Page<>(page, pageCount);
         OnlineTeamInfo where = new OnlineTeamInfo();
-        return baseMapper.selectPage(wherePage, Wrappers.query(where));
+
+        return   baseMapper.selectPage(wherePage, Wrappers.query(where));
     }
 
     @Override

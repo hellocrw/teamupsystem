@@ -1,6 +1,6 @@
 package crw.online.team.mapper.onlineteam;
 
-import crw.online.team.entity.onlineteam.OnlineTeamInfo;
+import crw.online.team.entity.onlineteam.Team;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author caorongwu
  * @since 2020-12-14
  */
-public interface OnlineTeamInfoMapper extends BaseMapper<OnlineTeamInfo> {
+public interface TeamMapper extends BaseMapper<Team> {
 
 }

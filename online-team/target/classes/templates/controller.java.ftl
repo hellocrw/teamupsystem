@@ -68,10 +68,10 @@ class ${table.controllerName}<#if superControllerClass??>:${superControllerClass
     }
 
     @ApiOperation(value = "查询${table.comment!}分页数据")
-    @ApiImplicitParams({
-        @ApiImplicitParam(name = "page", value = "页码"),
-        @ApiImplicitParam(name = "pageCount", value = "每页条数")
-    })
+    <#--@ApiImplicitParams({-->
+        <#--@ApiImplicitParam(name = "page", value = "页码"),-->
+        <#--@ApiImplicitParam(name = "pageCount", value = "每页条数")-->
+    <#--})-->
     @GetMapping()
     public IPage<${entity}> findListByPage(@RequestParam Integer page,
                                    @RequestParam Integer pageCount){

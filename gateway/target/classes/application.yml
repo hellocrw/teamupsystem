@@ -18,7 +18,7 @@ spring:
         #          uri: http://localhost:8001
         uri: lb://cloud-payment-service  # 匹配后提供服务的路由地址
         predicates:
-        - Path=/payment/lb/**
+        - Path=/payment/**
 #            - Cookie=username,zzyy
 #            - Header=X-Request-Id, \d+   # 请求头要有X-Request-Id属性并且值为整数的正则表达式
 eureka:

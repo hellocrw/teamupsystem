@@ -1,6 +1,6 @@
 package crw.online.team.service.onlineteam;
 
-import crw.online.team.entity.onlineteam.OnlineTeamInfo;
+import crw.online.team.entity.onlineteam.Team;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 
@@ -12,24 +12,24 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
  * @author caorongwu
  * @since 2020-12-14
  */
-public interface IOnlineTeamInfoService extends IService<OnlineTeamInfo> {
+public interface ITeamService extends IService<Team> {
 
     /**
      * 查询分页数据
      *
      * @param page      页码
      * @param pageCount 每页条数
-     * @return IPage<OnlineTeamInfo>
+     * @return IPage<Team>
      */
-    IPage<OnlineTeamInfo> findListByPage(Integer page, Integer pageCount);
+    IPage<Team> findListByPage(Integer page, Integer pageCount);
 
     /**
      * 添加
      *
-     * @param onlineTeamInfo 
+     * @param team 
      * @return int
      */
-    int add(OnlineTeamInfo onlineTeamInfo);
+    int add(Team team);
 
     /**
      * 删除
@@ -42,16 +42,16 @@ public interface IOnlineTeamInfoService extends IService<OnlineTeamInfo> {
     /**
      * 修改
      *
-     * @param onlineTeamInfo 
+     * @param team 
      * @return int
      */
-    int updateData(OnlineTeamInfo onlineTeamInfo);
+    int updateData(Team team);
 
     /**
      * id查询数据
      *
      * @param id id
-     * @return OnlineTeamInfo
+     * @return Team
      */
-    OnlineTeamInfo findById(Long id);
+    Team findById(Long id);
 }
