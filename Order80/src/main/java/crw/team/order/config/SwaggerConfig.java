@@ -1,4 +1,4 @@
-package crw.online.team.config;
+package crw.team.order.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("crw.online.team.controller"))
+                .apis(RequestHandlerSelectors.basePackage("crw.team.order.controller"))
                 .paths(PathSelectors.any())
                 .build();
 

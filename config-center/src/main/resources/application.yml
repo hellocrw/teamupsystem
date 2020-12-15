@@ -8,9 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/hellocrw/teamup-config-center.git
+          uri: https://github.com/hellocrw/config-center.git
           search-paths:
-            - teamup-config-center
+            - config-center
       label: master
 
 eureka:

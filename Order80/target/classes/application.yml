@@ -1,13 +1,16 @@
-server:
-  port: 80
-
-spring:
-  application:
-    name: order80
-
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:7001/eureka
+#server:
+#  port: 80
+#
+#spring:
+#  application:
+#    name: order80
+#  main:
+#    allow-bean-definition-overriding: true # 允许存在多个Feign调用相同的service接口
+#
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka
+#
