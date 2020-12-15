@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auth-management" />
+        <module name="config-center" />
+        <module name="config-center-client" />
         <module name="eureka" />
         <module name="gateway" />
         <module name="online-team" />

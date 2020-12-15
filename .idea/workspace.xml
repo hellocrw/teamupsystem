@@ -1,38 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51c87767-c68a-4955-b350-4c4f1eeeba5a" name="Default Changelist" comment="">
+    <list default="true" id="59d4c8d4-2086-4517-85b9-eca929dbe9d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-center-client/config-center-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center-client/src/main/java/crw/config/ConfigCenterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center-client/src/main/java/crw/config/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center/config-center.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center/src/main/java/crw/config/ConfigCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-center/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/Order80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/config/ApplicationContextConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-management/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-management/target/classes/crw/auth/AuthManagementApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-management/target/classes/crw/auth/controller/MyTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/crw/teamsystem/eureka/Eureka7001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/OnlineTeamInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/onlineteam/OnlineTeamInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/MybatisplusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/MybatisplusGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/onlineteam/OnlineTeamInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/xml/OnlineTeamInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/IOnlineTeamInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/impl/OnlineTeamInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/crw/cloud/Gateway.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/controller/onlineteam/OnlineTeamInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/OnlineTeam8081.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/controller/onlineteam/OnlineTeamInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/controller/onlineteam/OnlineTeamInfoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/entity/onlineteam/OnlineTeamInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/generator/MybatisplusGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/generator/MybatisplusGenerator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/generator/MybatisplusGenerator$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/generator/MybatisplusGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/generator/MybatisplusGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/generator/generator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/mapper/onlineteam/OnlineTeamInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/myrule/MySelfRule.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/service/onlineteam/IOnlineTeamInfoService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/service/onlineteam/impl/OnlineTeamInfoServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/controller.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/templates/controller.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/entity.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/mapper.xml.ftl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/returnJson/controller.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/templates/returnJson/controller.java.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-api-commons/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/team-api-commons/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/returnJson/entity.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/returnJson/mapper.xml.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/returnJson/service.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/returnJson/serviceImpl.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/service.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-team/target/classes/templates/serviceImpl.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-api-commons/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-api-commons/target/classes/crw/commons/entity/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-api-commons/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-api-commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-api-commons/target/team-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/online-team/target/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Order80/target/" />
-    <ignored path="$PROJECT_DIR$/api-commons/target/" />
-    <ignored path="$PROJECT_DIR$/team-api-commons/target/" />
+    <ignored path="$PROJECT_DIR$/online-team/target/" />
+    <ignored path="$PROJECT_DIR$/config-center-client/target/" />
     <ignored path="$PROJECT_DIR$/auth-management/target/" />
-    <ignored path="$PROJECT_DIR$/Gateway/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <ignored path="$PROJECT_DIR$/config-center/target/" />
+    <ignored path="$PROJECT_DIR$/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/team-api-commons/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,96 +82,36 @@
     </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1774726393">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="11" />
-          <entry key="ftl" value="13" />
-          <entry key="java" value="1414" />
-          <entry key="xml" value="1080" />
-          <entry key="yml" value="697" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="FTL" value="13" />
-          <entry key="JAVA" value="1414" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="XML" value="1080" />
-          <entry key="YAML" value="697" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="ftl" value="6" />
-          <entry key="java" value="56" />
-          <entry key="pom" value="1" />
-          <entry key="xml" value="26" />
-          <entry key="yml" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="FTL" value="6" />
-          <entry key="JAVA" value="56" />
-          <entry key="XML" value="27" />
-          <entry key="YAML" value="14" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="-1546195540">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ftl" value="2" />
-          <entry key="java" value="31" />
-          <entry key="xml" value="10" />
-          <entry key="yml" value="6" />
+          <entry key="java" value="8" />
+          <entry key="xml" value="4" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="FTL" value="2" />
-          <entry key="JAVA" value="31" />
-          <entry key="XML" value="10" />
-          <entry key="YAML" value="6" />
+          <entry key="JAVA" value="8" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="actions.SpringChangeActiveProfiles" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="338" />
-          <entry key="xml" value="5" />
-          <entry key="yml" value="652" />
+          <entry key="java" value="9" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="338" />
-          <entry key="XML" value="5" />
-          <entry key="YAML" value="652" />
+          <entry key="JAVA" value="9" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -141,122 +119,116 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/OnlineTeam8081.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/MybatisplusGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/onlineteam/OnlineTeamInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/onlineteam/Project.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/OnlineTeamInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
-                <element signature="e#1861#1862#0" expanded="true" />
-                <element signature="e#1918#1919#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/ProjectController.java">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/TeamController.java">
+        <entry file="file://$PROJECT_DIR$/config-center/src/main/java/crw/config/ConfigCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+            <state relative-caret-position="100">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="e#386#387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/onlineteam/OnlineTeamInfoMapper.java">
+        <entry file="file://$PROJECT_DIR$/config-center/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="13" column="74" lean-forward="true" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+            <state relative-caret-position="75">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/xml/OnlineTeamInfoMapper.xml">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/crw/cloud/Gateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="225">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-513">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-center-client/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-center-client/src/main/java/crw/config/ConfigCenterClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka/src/main/java/crw/teamsystem/eureka/Eureka7001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-center-client/src/main/java/crw/config/controller/ConfigClientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mysql</find>
-      <find>jdbc</find>
-      <find>swagger</find>
-      <find>eureka</find>
-      <find>test</find>
-      <find>parent</find>
-      <find>logging</find>
-      <find>FeignConfig</find>
-    </findStrings>
-    <dirStrings>
-      <dir>E:\code\teamupsystem</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -299,12 +271,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/crw/cloud/Gateway.java" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/team-api-commons/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/online-team/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/MybatisplusGenerator.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/config-center/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-center-client/src/main/java/crw/config/ConfigClient.java" />
+        <option value="$PROJECT_DIR$/config-center-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -314,23 +290,25 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="auth-management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="auth-management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="online-team" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="online-team" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -353,9 +331,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,25 +341,60 @@
             <path>
               <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
-              <item name="online-team" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
-              <item name="online-team" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
-              <item name="online-team" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
-              <item name="online-team" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -392,16 +402,27 @@
             <path>
               <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
-              <item name="online-team" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="team" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,31 +430,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607941185322" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.41067538" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607995340993" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="crw.commons.config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\temp\teamupsystem\team-api-commons\src\main\resources" />
-      <recent name="D:\project\temp\teamupsystem\team-api-commons\src\main\java" />
-      <recent name="D:\project\temp\teamupsystem\online-team\src\main\resources" />
-      <recent name="D:\project\temp\teamupsystem\online-team\src\main\java\crw\online\team" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -453,76 +454,36 @@
     </option>
     <option name="contentProportion" value="0.2103825" />
   </component>
-  <component name="RunManager" selected="Application.MybatisplusGenerator (1)">
-    <configuration name="MybatisplusGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crw.online.team.generator.MybatisplusGenerator" />
-      <module name="online-team" />
+  <component name="RunManager" selected="Spring Boot.Gateway">
+    <configuration name="ConfigCenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-center" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crw.online.team.generator.*" />
+          <option name="PATTERN" value="crw.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="crw.config.ConfigCenter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Gateway" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Gateway" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="auth-management" />
+    <configuration name="ConfigCenterClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-center-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crw.auth.*" />
+          <option name="PATTERN" value="crw.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="crw.auth.AuthManagementApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="crw.config.ConfigCenterClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="crw.teamsystem.eureka.Eureka7001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -553,33 +514,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Order80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Order80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Order80" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crw.team.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="crw.team.order.Order80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.OnlineTeam8081" />
-      <item itemvalue="Spring Boot.AuthManagementApplication" />
+      <item itemvalue="Spring Boot.Eureka7001" />
       <item itemvalue="Spring Boot.Order80" />
+      <item itemvalue="Spring Boot.ConfigCenter" />
+      <item itemvalue="Spring Boot.OnlineTeam8081" />
       <item itemvalue="Spring Boot.Gateway" />
-      <item itemvalue="Application.MybatisplusGenerator (1)" />
+      <item itemvalue="Spring Boot.ConfigCenterClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OnlineTeam8081" />
-        <item itemvalue="Application.MybatisplusGenerator (1)" />
         <item itemvalue="Spring Boot.Gateway" />
-        <item itemvalue="Spring Boot.AuthManagementApplication" />
-        <item itemvalue="Spring Boot.Order80" />
+        <item itemvalue="Spring Boot.ConfigCenterClient" />
+        <item itemvalue="Spring Boot.ConfigCenter" />
+        <item itemvalue="Spring Boot.OnlineTeam8081" />
       </list>
     </recent_temporary>
   </component>
@@ -609,19 +564,12 @@
       <workItem from="1603326586344" duration="279000" />
       <workItem from="1603964441290" duration="2415000" />
       <workItem from="1607939187045" duration="2015000" />
+      <workItem from="1607993787044" duration="1496000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="generator_testGenerator - 2020.08.17 at 01h 34m 26s.xml">
-      <configuration name="generator.testGenerator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="generator_testGenerator - 2020.08.17 at 01h 37m 32s.xml">
-      <configuration name="generator.testGenerator" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76144000" />
+    <option name="totallyTimeSpent" value="1399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,8 +582,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.28837952" />
       <window_info id="Structure" order="1" sideWeight="0.5031447" side_tool="true" weight="0.16204691" />
       <window_info id="Designer" order="2" />
@@ -644,25 +592,26 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.5038002" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.4169381" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" weight="0.37785017" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.46164575" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.2964554" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.29641694" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.50271446" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.23452769" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.53351957" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.4650913" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.17698154" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.21574642" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.13404825" />
@@ -678,12 +627,6 @@
       <window_info anchor="right" id="Json Parser" order="12" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -696,217 +639,101 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/team-api-commons/src/main/java/crw/commons/generator/MybatisplusGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/team-api-commons/src/main/java/crw/commons/mapper/TaskMapper.java" />
-    <entry file="file://$PROJECT_DIR$/team-api-commons/src/main/java/crw/commons/controller/TaskController.java" />
-    <entry file="file://$PROJECT_DIR$/Order80/target/classes/application.yml">
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/xml/OnlineTeamInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="400">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.2.RELEASE/spring-boot-dependencies-2.2.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="548" column="6" selection-start-line="548" selection-start-column="6" selection-end-line="548" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-api-commons/src/main/java/crw/commons/service/TaskService.java" />
-    <entry file="file://$PROJECT_DIR$/team-api-commons/src/main/java/crw/commons/config/SwaggerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/myrule/MySelfRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/auth-management/src/main/java/crw/auth/controller.java" />
-    <entry file="file://$PROJECT_DIR$/auth-management/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/auth-management/src/main/java/crw/auth/AuthManagementApplication.java" />
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/Order80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/templates/returnJson/controller.java.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="78" column="52" lean-forward="true" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/templates/controller.java.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-management/src/main/java/crw/auth/controller/MyTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/IOnlineTeamInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/Gateway.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/crw/cloud/Gateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/impl/OnlineTeamInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/pom.xml">
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/config/ApplicationContextConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-management/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/crw/teamsystem/eureka/Eureka7001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-api-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-482">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-api-commons/src/main/java/crw/commons/entity/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team-api-commons/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/onlineteam/OnlineTeamInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/OnlineTeamInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        <state relative-caret-position="250">
+          <caret line="812" column="20" selection-start-line="812" selection-start-column="20" selection-end-line="812" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/MybatisplusGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/onlineteam/OnlineTeamInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-center-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/onlineteam/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/TeamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-management/src/main/java/crw/auth/AuthManagementApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/onlineteam/OnlineTeamInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -920,206 +747,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/config/MybatisPlusConfig.java">
+    <entry file="file://$PROJECT_DIR$/config-center/src/main/java/crw/config/ConfigCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/project/ProjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/project/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/MybatisplusGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/onlineteam/OnlineTeamInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/onlineteam/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/OnlineTeamInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        <state relative-caret-position="100">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
-            <element signature="e#1861#1862#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/ProjectController.java">
+    <entry file="file://$PROJECT_DIR$/config-center/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/controller/onlineteam/TeamController.java">
+    <entry file="file://$PROJECT_DIR$/config-center-client/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        <state relative-caret-position="175">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/onlineteam/OnlineTeamInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/config-center-client/src/main/java/crw/config/ConfigCenterClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="13" column="74" lean-forward="true" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+        <state relative-caret-position="175">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/mapper/xml/OnlineTeamInfoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/config-center-client/src/main/java/crw/config/controller/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="275">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41067538" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41067538" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41067538" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41067538" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>teamupsystem</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41067538" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41067538" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41067538" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/crw/teamsystem/eureka/Eureka7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/crw/cloud/Gateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
