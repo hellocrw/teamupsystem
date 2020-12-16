@@ -11,6 +11,7 @@
         <module name="config-center" />
         <module name="config-center-client" />
         <module name="eureka" />
+        <module name="flink-stream" />
         <module name="gateway" />
         <module name="online-team" />
         <module name="Order80" />
