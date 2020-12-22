@@ -8,7 +8,7 @@
   <artifactId>teamupsystem</artifactId>
   <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>online-team</module>
+      <module>online-team</module>
       <module>eureka</module>
       <module>Order80</module>
       <module>team-api-commons</module>
@@ -17,6 +17,7 @@
       <module>config-center</module>
       <module>config-center-client</module>
       <module>flink-stream</module>
+      <module>nacos</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -69,13 +70,13 @@
         <scope>import</scope>
       </dependency>
       <!--spring cloud 阿里巴巴-->
-      <!--<dependency>-->
-        <!--<groupId>com.alibaba</groupId>-->
-        <!--<artifactId>spring-cloud-alibaba-dependencies</artifactId>-->
-        <!--<version>2.1.0.RELEASE</version>-->
-        <!--<type>pom</type>-->
-        <!--<scope>import</scope>-->
-      <!--</dependency>-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.1.0.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <!-- mysql -->
       <dependency>
         <groupId>mysql</groupId>
