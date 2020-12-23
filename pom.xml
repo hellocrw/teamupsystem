@@ -17,6 +17,8 @@
       <module>config-center</module>
       <module>config-center-client</module>
       <module>session-demo</module>
+      <module>flink-stream</module>
+      <module>nacos</module>
     </modules>
     <packaging>pom</packaging>
 
