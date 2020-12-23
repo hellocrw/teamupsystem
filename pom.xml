@@ -8,7 +8,7 @@
   <artifactId>teamupsystem</artifactId>
   <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>online-team</module>
+      <module>online-team</module>
       <module>eureka</module>
       <module>Order80</module>
       <module>team-api-commons</module>
@@ -16,6 +16,7 @@
       <module>gateway</module>
       <module>config-center</module>
       <module>config-center-client</module>
+      <module>session-demo</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -30,7 +31,11 @@
       <!--<url>scp://webhost.company.com/www/website</url>-->
     <!--</site>-->
   <!--</distributionManagement>-->
-
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.2.RELEASE</version>
+  </parent>
   <!-- 统一管理jar包版本 -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,16 +47,17 @@
     <mysql.version>8.0.18</mysql.version>
     <druid.version>1.1.16</druid.version>
     <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
+    <spring.cloud.alibaba.version>2.2.1.RELEASE</spring.cloud.alibaba.version>
   </properties>
 
   <!-- 子模块继承之后，提供作用： 锁定版本 + 子模块不用写groupId 和 version -->
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.0.0</version>
-      </dependency>
+      <!--<dependency>-->
+        <!--<groupId>org.apache.maven.plugins</groupId>-->
+        <!--<artifactId>maven-project-info-reports-plugin</artifactId>-->
+        <!--<version>3.0.0</version>-->
+      <!--</dependency>-->
       <!--spirng boot 2.2.2-->
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -68,13 +74,13 @@
         <scope>import</scope>
       </dependency>
       <!--spring cloud 阿里巴巴-->
-      <!--<dependency>-->
-        <!--<groupId>com.alibaba</groupId>-->
-        <!--<artifactId>spring-cloud-alibaba-dependencies</artifactId>-->
-        <!--<version>2.1.0.RELEASE</version>-->
-        <!--<type>pom</type>-->
-        <!--<scope>import</scope>-->
-      <!--</dependency>-->
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>${spring.cloud.alibaba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <!-- mysql -->
       <dependency>
         <groupId>mysql</groupId>

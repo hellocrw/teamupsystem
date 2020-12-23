@@ -1,3 +1,9 @@
+spring:
+  rabbitmq:
+    port: 5672
+    username: guest
+    password: guest
+    host: 8.129.110.202
 #server:
 #  port: 8081
 #spring:
