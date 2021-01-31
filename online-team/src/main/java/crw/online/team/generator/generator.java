@@ -28,10 +28,10 @@ public class generator {
         //2. 数据源配置
         DataSourceConfig dsConfig = new DataSourceConfig();
         dsConfig.setDbType(DbType.MYSQL)
-                .setUrl("jdbc:mysql://120.79.191.236:3306/team?characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai")
+                .setUrl("jdbc:mysql://8.129.110.202:3306/team?characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai")
                 .setDriverName("com.mysql.cj.jdbc.Driver")
                 .setUsername("root")
-                .setPassword("123456");
+                .setPassword("hellocrw.1103");
         //3.策略配置
         StrategyConfig stConfig = new StrategyConfig();
         stConfig.setCapitalMode(true) // 全局大写命名

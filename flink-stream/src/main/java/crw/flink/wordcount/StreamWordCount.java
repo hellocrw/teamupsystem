@@ -15,9 +15,8 @@ public class StreamWordCount {
 //        DataStream<String> dataStream = env.readTextFile(inputPath);
 
         // parameter tool工具从启动参数中提取配置项
-        ParameterTool parameterTool = ParameterTool.fromArgs(args);
-        String host = parameterTool.get("host");
-        int port = parameterTool.getInt("port");
+        String host = "192.168.92.135";
+        int port = 7777;
 
         // 从socket文本流读取数据
         DataStream<String> dataStream = env.socketTextStream(host, port);

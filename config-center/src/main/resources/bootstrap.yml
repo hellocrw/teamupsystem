@@ -13,11 +13,11 @@ spring:
           - config-center
       label: master
 
-  rabbitmq:
-    addresses: 8.129.110.202
-    port: 5672
-    username: guest
-    password: guest
+#  rabbitmq:
+#    addresses: 8.129.110.202
+#    port: 5672
+#    username: guest
+#    password: guest
 
 # 暴露监控断点
 management:
@@ -28,6 +28,11 @@ management:
         include: "*"
 
 eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: config-center
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://8.129.110.202:7001/eureka
+    register-with-eureka: true
+    fetch-registry: true

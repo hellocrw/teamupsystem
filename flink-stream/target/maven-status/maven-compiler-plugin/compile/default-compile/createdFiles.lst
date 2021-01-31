@@ -1,0 +1,3 @@
+crw\flink\wordcount\StreamWordCount.class
+crw\flink\wordcount\WordCount$MyFlatMapper.class
+crw\flink\wordcount\WordCount.class

@@ -4,3 +4,7 @@ spring:
     username: guest
     password: guest
     host: 8.129.110.202
+
+server:
+  servlet:
+    context-path: /order
