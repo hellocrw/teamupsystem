@@ -4,3 +4,20 @@ spring:
     username: guest
     password: guest
     host: 8.129.110.202
+  main:
+    allow-bean-definition-overriding: true # 允许存在多个Fegin调用相同的Service接口
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+# OpenFeign日志管理
+logging:
+  level:
+    crw.team.order.service.remoteService.ProjectService: debug
+
+hystrix:
+  metrics:
+    polling-interval-ms: 10000
+    enabled: true

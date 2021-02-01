@@ -10,12 +10,12 @@ spring:
       name: Order80 # 配置文件名称
       profile: dev # 读取后缀名称    master 分支下的config-dev.yml配置文件
       uri: http://localhost:9003  # 配置中心地址
-    nacos:
-      config:
-        server-addr: 127.0.0.1:8848
-        name: example
-        username: nacos
-        password: nacos
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        name: example
+#        username: nacos
+#        password: nacos
 
 # 服务注册到eureka地址
 eureka:
