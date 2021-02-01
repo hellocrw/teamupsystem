@@ -8,3 +8,6 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    enable-self-preservation: false # 关闭自我保护机制，保证不可用服务被及时剔除
+    eviction-interval-timer-in-ms: 5000 # 如果5秒内没有收到某个服务的心跳，那就剔除该微服务，单位毫秒
