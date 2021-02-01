@@ -45,6 +45,11 @@ public class ProjectServiceImpl extends ServiceImpl<ProjectMapper, Project> impl
 
     @Override
     public Project findById(Long id){
+        // 修改数据库数据
+        int i = 1/0;
+        Project project = baseMapper.selectById(id);
+        project.setProName("修改项目名称");
+        baseMapper.updateById(project);
         try {
             Thread.sleep(200);
         } catch (InterruptedException e) {

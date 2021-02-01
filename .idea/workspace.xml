@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59d4c8d4-2086-4517-85b9-eca929dbe9d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/config/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/controller/remoteController/RemoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/remoteService/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/config/FeignConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/config/MySelfRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/controller/remoteController/RemoteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/service/remoteService/ProjectService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session-demo/src/main/java/crw/session/sessiondemo/controller/LockController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/Order80.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/Order80.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order80/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/Order80.class" beforeDir="false" afterPath="$PROJECT_DIR$/Order80/target/classes/crw/team/order/Order80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-stream/target/classes/crw/flink/wordcount/StreamWordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-stream/target/classes/crw/flink/wordcount/StreamWordCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/target/classes/com/spring/cloud/nacos/controller/SentinelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/target/classes/com/spring/cloud/nacos/controller/SentinelController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/service/onlineteam/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/online-team/target/classes/crw/online/team/service/onlineteam/impl/ProjectServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gateway/target/" />
     <ignored path="$PROJECT_DIR$/config-center-client/target/" />
@@ -53,30 +34,38 @@
     <session id="-1774726393">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4" />
-          <entry key="xml" value="3" />
-          <entry key="yml" value="119" />
+          <entry key="conf" value="10" />
+          <entry key="java" value="337" />
+          <entry key="xml" value="33" />
+          <entry key="yml" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="119" />
+          <entry key="JAVA" value="337" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="XML" value="33" />
+          <entry key="YAML" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
-          <entry key="xml" value="1" />
-          <entry key="yml" value="7" />
+          <entry key="class" value="1" />
+          <entry key="conf" value="2" />
+          <entry key="ftl" value="1" />
+          <entry key="java" value="33" />
+          <entry key="xml" value="5" />
+          <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
-          <entry key="XML" value="1" />
-          <entry key="YAML" value="7" />
+          <entry key="CLASS" value="1" />
+          <entry key="FTL" value="1" />
+          <entry key="JAVA" value="33" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -84,10 +73,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/OnlineTeam8081.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/demo01/impl/Demo01ServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order80/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/registry.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/file.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/Order80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/impl/ProjectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="210">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="26" />
               <folding>
                 <element signature="e#1023#1024#0" expanded="true" />
                 <element signature="e#1072#1073#0" expanded="true" />
@@ -109,34 +176,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/remoteService/ProjectService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mybatis</find>
+      <find>myba</find>
+      <find>jdb</find>
+      <find>mysql</find>
+      <find>jdbc</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,13 +198,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Order80/pom.xml" />
-        <option value="$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/Order80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/online-team/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/generator/generator.java" />
+        <option value="$PROJECT_DIR$/online-team/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/generator/MybatisplusGenerator.java" />
+        <option value="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/Order80.java" />
+        <option value="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/controller/demo01/Demo01Controller.java" />
         <option value="$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/impl/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Order80/src/main/resources/registry.conf" />
+        <option value="$PROJECT_DIR$/Order80/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/Order80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Order80/pom.xml" />
+        <option value="$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/demo01/impl/Demo01ServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -170,16 +227,30 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="online-team" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="online-team" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="teamupsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -328,7 +399,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teamupsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teamupsystem" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +467,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612186539505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612197625347" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\temp\teamupsystem\Order80\src\main\resources" />
+      <recent name="D:\project\temp\teamupsystem\Order80\src\main\java\crw\team\order" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -383,6 +494,19 @@
     <option name="contentProportion" value="0.17379534" />
   </component>
   <component name="RunManager" selected="Spring Boot.Order80">
+    <configuration name="MybatisplusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crw.team.order.generator.MybatisplusGenerator" />
+      <module name="Order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crw.team.order.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigCenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="crw.config.ConfigCenter" />
@@ -448,7 +572,13 @@
       <item itemvalue="Spring Boot.SessionDemoApplication" />
       <item itemvalue="Spring Boot.Eureka7001" />
       <item itemvalue="Spring Boot.Nacos" />
+      <item itemvalue="Application.MybatisplusGenerator" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MybatisplusGenerator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -493,12 +623,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4338000" />
+    <option name="totallyTimeSpent" value="13903000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.2256" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.28370222" />
       <window_info id="Structure" order="1" sideWeight="0.5031447" side_tool="true" weight="0.16204691" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -507,16 +638,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.49409238" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.37062937" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" weight="0.46831363" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" weight="0.2932331" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.46153846" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.29641694" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.43501613" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.3190118" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.53351957" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.23845327" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32899022" />
@@ -531,11 +662,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.13404825" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1376" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.064386316" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" visible="true" weight="0.10529846" />
       <window_info anchor="right" id="Mongo Explorer" order="10" />
       <window_info anchor="right" id="RestServices" order="11" />
       <window_info anchor="right" id="Json Parser" order="12" />
@@ -556,13 +687,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/controller/TeamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -576,40 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="363" column="7" lean-forward="true" selection-start-line="363" selection-start-column="7" selection-end-line="363" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/Order80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/OnlineTeam8081.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-team/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3275">
-          <caret line="131" column="61" selection-start-line="131" selection-start-column="61" selection-end-line="131" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -664,24 +758,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/IProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/TeamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/entity/task/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/templates/returnJson/mapper.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="87" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/generator/generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/generator/MybatisplusGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <element signature="e#2452#2862#0" expanded="true" />
+            <element signature="e#2861#2862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/generator/MybatisplusGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="132" column="62" lean-forward="true" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/controller/TeamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/remoteService/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/controller/demo01/Demo01Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding>
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/demo01/IDemo01Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="200">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/online-team/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="325">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/service/onlineteam/impl/ProjectServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="210">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="26" />
           <folding>
             <element signature="e#1023#1024#0" expanded="true" />
             <element signature="e#1072#1073#0" expanded="true" />
@@ -693,24 +899,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/remoteService/ProjectService.java">
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="325">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/registry.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="550">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/resources/file.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/Order80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-team/src/main/java/crw/online/team/OnlineTeam8081.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order80/src/main/java/crw/team/order/service/demo01/impl/Demo01ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

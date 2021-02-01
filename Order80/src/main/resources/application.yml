@@ -6,6 +6,10 @@ spring:
     host: 8.129.110.202
   main:
     allow-bean-definition-overriding: true # 允许存在多个Fegin调用相同的Service接口
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: fsp_tx_group
 server:
   servlet:
     context-path: /order
@@ -24,3 +28,4 @@ hystrix:
   metrics:
     polling-interval-ms: 5000
     enabled: true
+

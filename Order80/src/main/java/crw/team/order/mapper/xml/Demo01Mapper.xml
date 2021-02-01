@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="crw.team.order.mapper.demo01.Demo01Mapper">
+
+        <!-- 通用查询映射结果 -->
+        <resultMap id="BaseResultMap" type="crw.team.order.entity.demo01.Demo01">
+                    <id column="id" property="id"/>
+                    <result column="demo_name" property="demoName"/>
+                    <result column="demo_content" property="demoContent"/>
+                    <result column="demo_log" property="demoLog"/>
+        </resultMap>
+
+        <!-- 通用查询结果列 -->
+        <sql id="Base_Column_List">
+            id, demo_name, demo_content, demo_log
+        </sql>
+
+</mapper>
