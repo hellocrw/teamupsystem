@@ -54,10 +54,10 @@ public class Demo01ServiceImpl extends ServiceImpl<Demo01Mapper, Demo01> impleme
     @GlobalTransactional(name = "fsp-create-order", rollbackFor = Exception.class)
     public Demo01 findById(Long id){
         Demo01 demo01 = baseMapper.selectById(id);
-        demo01.setDemoLog("test");
+        demo01.setDemoLog("demo-log修改失败");
         baseMapper.updateById(demo01);
 
-        projectService.findById(124L);
+        projectService.findById(84L);
         return  baseMapper.selectById(id);
     }
 }

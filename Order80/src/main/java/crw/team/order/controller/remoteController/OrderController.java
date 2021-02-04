@@ -1,4 +1,4 @@
-package crw.team.order.controller;
+package crw.team.order.controller.remoteController;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

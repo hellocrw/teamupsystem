@@ -1,4 +1,4 @@
-package crw.team.order.controller;
+package crw.team.order.controller.remoteController;
 
 import crw.team.order.service.TeamService;
 import org.springframework.beans.factory.annotation.Autowired;

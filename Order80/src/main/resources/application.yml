@@ -6,13 +6,9 @@ spring:
     host: 8.129.110.202
   main:
     allow-bean-definition-overriding: true # 允许存在多个Fegin调用相同的Service接口
-  cloud:
-    alibaba:
-      seata:
-        tx-service-group: fsp_tx_group
-server:
-  servlet:
-    context-path: /order
+#server:
+#  servlet:
+#    context-path: /order
 feign:
   client:
     config:
@@ -29,3 +25,20 @@ hystrix:
     polling-interval-ms: 5000
     enabled: true
 
+##########################seata#############################
+seata:
+  enabled: true
+  application-id: seata-server
+  tx-service-group: default
+  enable-auto-data-source-proxy: true
+  use-jdk-proxy: false
+  service:
+    vgroup-mapping:
+      default: seata-server
+    enable-degrade: false
+    disable-global-transaction: false
+  registry:
+    type: eureka
+    eureka:
+      weight: 1
+      service-url: http://localhost:7001/eureka/
