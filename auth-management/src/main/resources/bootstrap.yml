@@ -1,20 +1,15 @@
-server:
-  port: 9001
-
 spring:
-  application:
-    name: auth-management
   cloud:
     config:
       label: master # master分支
       name: auth-management # 配置文件名称
       profile: dev # 读取后缀名称    master 分支下的config-dev.yml配置文件
-      uri: http://localhost:9003  # 配置中心地址
+      uri: http://8.129.110.202:9003  # 配置中心地址
 
 # 服务注册到eureka地址
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:7001/eureka
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka
