@@ -1,0 +1,4 @@
+spring:
+  redis:
+    host: 8.129.110.202
+    database: 2

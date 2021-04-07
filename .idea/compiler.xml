@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auth-management" />
+        <module name="cloud-redis" />
         <module name="config-center" />
         <module name="config-center-client" />
         <module name="eureka" />

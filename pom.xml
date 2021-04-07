@@ -19,6 +19,7 @@
       <module>session-demo</module>
       <module>flink-stream</module>
       <module>nacos</module>
+      <module>cloud-redis</module>
     </modules>
     <packaging>pom</packaging>
 
