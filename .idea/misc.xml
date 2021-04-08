@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/cloud-alibaba-nacos-provider/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-lock/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
