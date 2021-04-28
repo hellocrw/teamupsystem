@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.CountDownLatch;
+
 @RestController
 @RequestMapping("/redis")
 public class RedisTestController {
@@ -19,6 +21,10 @@ public class RedisTestController {
 
     private Integer num = 0;
 
+    CountDownLatch countDownLatch = new CountDownLatch(10);
+
+    ThreadLocal threadLocal = new ThreadLocal();
+
     @GetMapping("/demo")
     public String demo() throws InterruptedException {
         long startTime = System.currentTimeMillis();
@@ -28,5 +34,13 @@ public class RedisTestController {
         long endTime = System.currentTimeMillis();
         LOGGER.info("执行时间: {}", endTime - startTime + ", num: " + num);
         return String.valueOf("执行时间: " + (endTime - startTime) + ",  num: " + num);
+    }
+
+    @GetMapping("/template")
+    public String template() {
+        countDownLatch.countDown();
+        long count = countDownLatch.getCount();
+        LOGGER.info("countDownLatch: " + count);
+        return String.valueOf(count);
     }
 }
