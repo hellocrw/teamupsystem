@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: cloud-study
+eureka:
+  client:
+    service-url:
+      defaultZone: http://8.129.110.202:7001/eureka

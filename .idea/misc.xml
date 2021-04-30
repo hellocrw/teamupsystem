@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-redis/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-study/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

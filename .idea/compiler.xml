@@ -10,6 +10,7 @@
         <module name="auth-management" />
         <module name="cloud-lock" />
         <module name="cloud-redis" />
+        <module name="cloud-study" />
         <module name="config-center" />
         <module name="config-center-client" />
         <module name="eureka" />
