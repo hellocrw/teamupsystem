@@ -58,6 +58,7 @@ public class FutrueController {
     public String simpleDemo() {
         FutureTask<Integer> futureTask = new FutureTask<>(
                 ()-> {
+                    Thread.sleep(2000);
                     LOGGER.info("异步执行...");
                     Thread.sleep(2000);
                     LOGGER.info("异步执行2...");
