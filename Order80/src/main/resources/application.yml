@@ -19,5 +19,5 @@ logging:
 
 hystrix:
   metrics:
-    polling-interval-ms: 10000
+    polling-interval-ms: 2000
     enabled: true
