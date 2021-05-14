@@ -10,6 +10,7 @@
         <module name="auth-management" />
         <module name="cloud-lock" />
         <module name="cloud-redis" />
+        <module name="cloud-study" />
         <module name="config-center" />
         <module name="config-center-client" />
         <module name="eureka" />
@@ -23,9 +24,21 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-commons" target="8" />
-      <module name="cloud-alibaba-nacos-provider" target="1.8" />
-      <module name="Gateway" target="8" />
+      <module name="auth-management" target="8" />
+      <module name="cloud-lock" target="8" />
+      <module name="cloud-redis" target="8" />
+      <module name="cloud-study" target="8" />
+      <module name="config-center" target="8" />
+      <module name="config-center-client" target="8" />
+      <module name="eureka" target="8" />
+      <module name="flink-stream" target="8" />
+      <module name="gateway" target="8" />
+      <module name="nacos" target="8" />
+      <module name="online-team" target="8" />
+      <module name="Order80" target="8" />
+      <module name="session-demo" target="8" />
+      <module name="team-api-commons" target="8" />
+      <module name="teamupsystem" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,6 @@
 package crw.lock.cloudlock.controller;
 
+import crw.lock.cloudlock.service.LockService;
 import crw.lock.cloudlock.controller.thread.ThreadLock;
 import crw.lock.cloudlock.controller.thread.TreadDemo;
 import org.slf4j.Logger;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.LockSupport;
@@ -16,6 +18,9 @@ import java.util.concurrent.locks.LockSupport;
 @RestController
 @RequestMapping("/lock")
 public class LockController {
+
+    @Resource
+    private LockService lockService;
 
     private static Logger LOGGER = LoggerFactory.getLogger(LockController.class);
 
@@ -29,6 +34,12 @@ public class LockController {
     @GetMapping("/lock-demo")
     public String lockDemo() {
         return "lockDemo";
+    }
+
+    @GetMapping("synchorizedDemo")
+    public String synchorizedDemo() {
+        lockService.synchorizedDemo();
+        return "synchorizedDemo";
     }
 
     @GetMapping("threadLocal")

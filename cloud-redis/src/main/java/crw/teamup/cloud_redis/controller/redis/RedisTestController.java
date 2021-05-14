@@ -27,6 +27,7 @@ public class RedisTestController {
 
     @GetMapping("/demo")
     public String demo() throws InterruptedException {
+        System.out.println("线程ID：" + Thread.currentThread().getId());
         long startTime = System.currentTimeMillis();
         Thread.sleep(2000);
         num ++;
