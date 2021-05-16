@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.LockSupport;
 
 @RestController
@@ -92,5 +93,9 @@ public class LockController {
             executorService.shutdown();
         }
         return "=======end=========";
+    }
+
+    public String JUC() {
+        return "demo";
     }
 }

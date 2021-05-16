@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class ConfigController {
 
-    @Value("${info.version}")
+    @Value("${server.port}")
     private String version;
 
-    @GetMapping("/version")
+    @GetMapping("/port")
     public String getVersion(){
         return version;
     }
