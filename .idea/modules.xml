@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Order80/Order80.iml" filepath="$PROJECT_DIR$/Order80/Order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-management/auth-management.iml" filepath="$PROJECT_DIR$/auth-management/auth-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-lock/cloud-lock.iml" filepath="$PROJECT_DIR$/cloud-lock/cloud-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-redis/cloud-redis.iml" filepath="$PROJECT_DIR$/cloud-redis/cloud-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-study/cloud-study.iml" filepath="$PROJECT_DIR$/cloud-study/cloud-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-center/config-center.iml" filepath="$PROJECT_DIR$/config-center/config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-center-client/config-center-client.iml" filepath="$PROJECT_DIR$/config-center-client/config-center-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-stream/flink-stream.iml" filepath="$PROJECT_DIR$/flink-stream/flink-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos/nacos.iml" filepath="$PROJECT_DIR$/nacos/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-team/online-team.iml" filepath="$PROJECT_DIR$/online-team/online-team.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session-demo/session-demo.iml" filepath="$PROJECT_DIR$/session-demo/session-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/team-api-commons/team-api-commons.iml" filepath="$PROJECT_DIR$/team-api-commons/team-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/teamupsystem.iml" filepath="$PROJECT_DIR$/.idea/teamupsystem.iml" />
+    </modules>
+  </component>
+</project>

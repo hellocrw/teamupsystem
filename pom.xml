@@ -20,6 +20,8 @@
       <module>flink-stream</module>
       <module>nacos</module>
       <module>cloud-redis</module>
+      <module>cloud-study</module>
+      <module>cloud-lock</module>
     </modules>
     <packaging>pom</packaging>
 
