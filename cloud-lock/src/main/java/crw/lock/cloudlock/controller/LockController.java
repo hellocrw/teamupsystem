@@ -96,6 +96,6 @@ public class LockController {
     }
 
     public String JUC() {
-        return "demo";
+        return "demos";
     }
 }

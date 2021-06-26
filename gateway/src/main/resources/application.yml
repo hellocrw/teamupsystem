@@ -28,4 +28,4 @@ eureka:
     service-url:
       register-with-eureka: true
       fetch-registry: true
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://8.129.110.202:7001/eureka
