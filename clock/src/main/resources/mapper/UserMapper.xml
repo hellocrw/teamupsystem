@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="crw.clock.mapper.UserMapper">
+
+    <insert id="register" parameterType="crw.clock.entity.UserLoginPO" useGeneratedKeys="true" keyProperty="userId">
+        INSERT INTO user_login (password, revision, created_by, created_time)
+        VALUES (#{userLoginPO.password}, #{userLoginPO.revision}, #{userLoginPO.createdBy}, #{userLoginPO.createdTime});
+    </insert>
+</mapper>

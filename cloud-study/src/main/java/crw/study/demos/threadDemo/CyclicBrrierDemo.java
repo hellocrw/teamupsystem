@@ -32,6 +32,7 @@ public class CyclicBrrierDemo {
             }
 
             LOGGER.info("所有线程写入完毕，继续执行其他任务...");
+
         }
     }
 

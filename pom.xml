@@ -22,6 +22,7 @@
       <module>cloud-redis</module>
       <module>cloud-study</module>
       <module>cloud-lock</module>
+      <module>clockPO</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -47,7 +48,7 @@
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
     <junit.version>4.12</junit.version>
-    <lombok.version>1.18.10</lombok.version>
+    <lombok.version>1.18.20</lombok.version>
     <log4j.version>1.2.17</log4j.version>
     <mysql.version>8.0.18</mysql.version>
     <druid.version>1.1.16</druid.version>

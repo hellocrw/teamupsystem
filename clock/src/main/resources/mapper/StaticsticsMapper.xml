@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="crw.clock.mapper.StatisticsMapper">
+    <select id="queryStatisticsInfo" parameterType="java.lang.String" resultType="crw.clock.entity.StatisticsPO">
+        select * from statistics  where CREATED_BY = #{loginUserId} order by created_time desc limit 1
+    </select>
+</mapper>

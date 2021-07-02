@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>auth-management</artifactId>
 
+    <artifactId>auth-management</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
