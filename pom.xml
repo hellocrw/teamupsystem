@@ -22,7 +22,7 @@
       <module>cloud-redis</module>
       <module>cloud-study</module>
       <module>cloud-lock</module>
-      <module>clockPO</module>
+      <module>clock</module>
     </modules>
     <packaging>pom</packaging>
 
