@@ -4,8 +4,8 @@ spring:
     username: guest
     password: guest
     host: 8.129.110.202
-#server:
-#  port: 8081
+server:
+  port: 8081
 #spring:
 #  application:
 #    name: online-team
