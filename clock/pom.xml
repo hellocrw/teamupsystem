@@ -8,7 +8,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>crw</groupId>
+    <groupId>crw.clock</groupId>
     <artifactId>clock</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
