@@ -26,6 +26,7 @@
         <module>mq</module>
         <module>netty</module>
         <module>spring-data-jpa</module>
+        <module>netty-version3</module>
     </modules>
     <packaging>pom</packaging>
 

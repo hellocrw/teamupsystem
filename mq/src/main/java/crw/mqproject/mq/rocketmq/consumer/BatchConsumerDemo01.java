@@ -22,6 +22,6 @@ public class BatchConsumerDemo01 {
             }
         });
         consumer.start();
-        System.out.println("consumer start... ");
+        System.out.println("client start... ");
     }
 }

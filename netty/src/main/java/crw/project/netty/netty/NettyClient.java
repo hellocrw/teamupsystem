@@ -6,10 +6,12 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.timeout.IdleStateHandler;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.concurrent.TimeUnit;
 
 public class NettyClient {
   public static void main(String[] args) {
@@ -22,6 +24,7 @@ public class NettyClient {
         .handler(new ChannelInitializer<Channel>() {
           @Override
           protected void initChannel(Channel ch) throws Exception {
+            ch.pipeline().addLast(new IdleStateHandler(5, 10, 15, TimeUnit.SECONDS));
             ch.pipeline().addLast(new NettyClientSimpleHandler());
           }
         });

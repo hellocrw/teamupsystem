@@ -29,7 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
   protected void configure(HttpSecurity http) throws Exception {
     http.authorizeRequests()
       // 设置权限访问时，先设置具体指定的路径，在设置范围的
-      .antMatchers("/abi/user/user/login/**","/static/**","/druid/**","/swagger-ui.html#/", "/login#/").permitAll()
+      .antMatchers("/**","/abi/user/user/login/**","/static/**","/druid/**","/swagger-ui.html#/", "/login#/").permitAll()
       .anyRequest().authenticated()
       .and()
       .csrf().disable()

@@ -14,7 +14,9 @@ public class LoginInfoUtil {
    */
   public static String getLoginUserId() {
     HttpServletRequest request = ((ServletRequestAttributes) (RequestContextHolder.currentRequestAttributes())).getRequest();
-    return request.getHeader("loginUserId");
+    // TODO 等前端解决请求头问题
+    request.getHeader("loginUserId");
+    return "1";
   }
 
 }

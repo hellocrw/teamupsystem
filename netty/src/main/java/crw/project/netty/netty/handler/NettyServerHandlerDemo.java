@@ -6,6 +6,12 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 
 public class NettyServerHandlerDemo extends ChannelInboundHandlerAdapter {
 
+  @Override
+  public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
+    System.out.println("");
+    super.userEventTriggered(ctx, evt);
+  }
+
   /**
    * 消息处理
    * @param ctx

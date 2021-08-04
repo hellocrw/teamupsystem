@@ -24,6 +24,6 @@ public class OnewayConsumerDemo01 {
             }
         });
         consumer.start();
-        System.out.println("oneway consumer start...");
+        System.out.println("oneway client start...");
     }
 }

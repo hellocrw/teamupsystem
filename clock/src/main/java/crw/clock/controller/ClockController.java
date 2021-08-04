@@ -1,11 +1,14 @@
 package crw.clock.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import crw.clock.dto.ClockDTO;
+import crw.clock.entity.ClockPO;
 import crw.clock.entity.ClockRecordPO;
 import crw.clock.service.ClockService;
 import crw.clock.utils.LoginInfoUtil;
+import crw.clock.vo.ClockVo;
 import crw.clock.vo.ResultVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -37,7 +40,7 @@ public class ClockController {
   @GetMapping("queryStartClockInfo")
   public ResponseEntity<ResultVo> queryStartClockInfo() {
     String loginUserId = LoginInfoUtil.getLoginUserId();
-    List<String> startClockInfoList = clockService.queryStartClockInfo(loginUserId);
+    List<ClockVo> startClockInfoList = clockService.queryStartClockInfo(loginUserId);
     return new ResponseEntity<>(new ResultVo(200, "查询开始打卡信息", startClockInfoList), HttpStatus.OK);
   }
 
@@ -49,6 +52,7 @@ public class ClockController {
   @ApiOperation(value = "打卡")
   @PostMapping("addStartClockInfo")
   public ResponseEntity<ResultVo> addStartClockInfo(@RequestBody List<ClockDTO> clockInfoList) {
+    logger.debug("打卡：{}" ,JSON.toJSONString(clockInfoList));
     Boolean clockInfo = clockService.addStartClockInfo(clockInfoList, LoginInfoUtil.getLoginUserId());
     return new ResponseEntity<>(new ResultVo(200, "打卡", clockInfo), HttpStatus.OK);
   }
@@ -61,7 +65,7 @@ public class ClockController {
   @GetMapping("queryEndClockInfo")
   public ResponseEntity<ResultVo> queryEndClockInfo() {
     String loginUserId = LoginInfoUtil.getLoginUserId();
-    List<String> list = clockService.queryEndClockInfo(loginUserId);
+    List<ClockVo> list = clockService.queryEndClockInfo(loginUserId);
     return new ResponseEntity<>(new ResultVo(200, "查询结束打卡信息", list), HttpStatus.OK);
   }
 
@@ -89,5 +93,13 @@ public class ClockController {
     IPage<ClockRecordPO> page = new Page<>(currentPage, pageSize);
     IPage<ClockRecordPO> clockRecordPOIPage = clockService.queryAllClockInfo(page);
     return new ResponseEntity<>(new ResultVo(200, "查看所有人的打卡记录", clockRecordPOIPage), HttpStatus.OK);
+  }
+
+  @ApiOperation("查看打卡内容")
+  @GetMapping("queryClockContent")
+  public ResponseEntity<ResultVo> queryClockContent(@RequestParam("currentPage") Integer currentPage, @RequestParam("pageSize") Integer pageSize) {
+    IPage<ClockPO> page = new Page<>(currentPage, pageSize);
+    IPage<ClockPO> clockPOIPage = clockService.queryClockContent(page);
+    return new ResponseEntity<>(new ResultVo(200, "查询打卡内容", clockPOIPage), HttpStatus.OK);
   }
 }

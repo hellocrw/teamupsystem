@@ -23,6 +23,7 @@ public class Consumer {
       @Override
       public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
         System.out.println("receive message: {} --> {}" +  list);
+        System.out.println(list);
         return  ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
       }
     });

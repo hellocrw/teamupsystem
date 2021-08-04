@@ -16,7 +16,7 @@ public class MQConsumerDemo01 {
         consumer.registerMessageListener(new MessageListenerConcurrently() {
             @Override
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
-                // System.out.println("consumer demo01 => " + list);
+                // System.out.println("client demo01 => " + list);
                 for (MessageExt messageExt : list) {
                     System.out.println(new String(messageExt.getBody()));
                 }
@@ -24,6 +24,6 @@ public class MQConsumerDemo01 {
             }
         });
         consumer.start();
-        System.out.println("consumer start ...");
+        System.out.println("client start ...");
     }
 }

@@ -31,13 +31,13 @@ public class SwaggerConfig {
     loginUserIdParameter.name("loginUserId").description("登录用户ID")
       .modelRef(new ModelRef("long"))
       .parameterType("header")
-      .required(true).build();
+      .required(false).build();
 
     ParameterBuilder tokenParameter = new ParameterBuilder();
     tokenParameter.name("token").description("token")
       .modelRef(new ModelRef("string"))
       .parameterType("header")
-      .required(true).build();
+      .required(false).build();
     parameterList.add(loginUserIdParameter.build());
     parameterList.add(tokenParameter.build());
 

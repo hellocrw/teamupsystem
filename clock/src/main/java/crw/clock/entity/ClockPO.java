@@ -28,5 +28,5 @@ public class ClockPO extends CommonEntityPO {
     private String clockContent;
     /*完成情况 1 完成 0 未完成*/
     @TableField("status")
-    private String status;
+    private Boolean status;
 }

@@ -14,6 +14,7 @@ import crw.clock.mapper.PlanMapper;
 import crw.clock.service.ClockService;
 import crw.clock.utils.CommonEntityUtil;
 import crw.clock.utils.TimeUtil;
+import crw.clock.vo.ClockVo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
@@ -43,27 +44,44 @@ public class ClockServiceImpl extends ServiceImpl<ClockMapper, ClockPO> implemen
   @Autowired
   private ClockRecordMapper clockRecordMapper;
 
+  @Autowired
+  private ClockMapper clockMapper;
+
+  /**
+   * 查看打卡内容
+   *  1. 如果今天没有打卡 则查询计划打卡的内容
+   *  2. 如果今天已经打卡 则查询今天打卡的内容
+   * @param loginUserId
+   * @return
+   */
   @Override
-  public List<String> queryStartClockInfo(String loginUserId) {
-    List<String> startClockList;
+  public List<ClockVo> queryStartClockInfo(String loginUserId) {
+    // 打卡内容
+    List<ClockVo> startClockList;
 
     // 1. 如果今天已经打卡，则查询今天打卡的内容
     logger.info("current time: {}", new Date(System.currentTimeMillis()));
     List<ClockPO> clockPOList = baseMapper.selectList(new QueryWrapper<ClockPO>().like("created_time", new Date(System.currentTimeMillis())));
 
     if (Objects.nonNull(clockPOList) && clockPOList.size() > 0) {
-      startClockList = clockPOList.stream().map(ClockPO::getClockContent).collect(Collectors.toList());
+      startClockList = clockPOList.stream().map(item -> {
+        ClockVo clockVo = ClockVo.builder().id(item.getId()).clockContent(item.getClockContent()).status(item.getStatus()).build();
+        return clockVo;
+      }).collect(Collectors.toList());
     } else {
       // 2. 如果今天还没打卡，则查询计划循环任务的每天打卡内容
       List<PlanPO> planPOList = planMapper.selectList(new QueryWrapper<PlanPO>().eq("plan_type", "1"));
-      startClockList = planPOList.stream().map(PlanPO::getPlanContent).collect(Collectors.toList());
+      startClockList = planPOList.stream().map(item -> {
+        ClockVo clockVo = ClockVo.builder().id(item.getId()).clockContent(item.getPlanContent()).status(false).build();
+        return clockVo;
+      }).collect(Collectors.toList());
     }
 
     return startClockList;
   }
 
   @Override
-  public List<String> queryEndClockInfo(String loginUserId) {
+  public List<ClockVo> queryEndClockInfo(String loginUserId) {
     return this.queryStartClockInfo(loginUserId);
   }
 
@@ -73,18 +91,15 @@ public class ClockServiceImpl extends ServiceImpl<ClockMapper, ClockPO> implemen
     if (TimeUtil.morningClock() && TimeUtil.nightClock()) {
       return false;
     }
-    List<ClockPO> clockPOList = baseMapper.selectList(new QueryWrapper<ClockPO>().likeRight("created_time", new Date(System.currentTimeMillis())));
-    logger.info("clockPOList: {}", JSON.toJSONString(clockPOList));
-    logger.info(TimeUtil.getCurrentDateTime() + ": {}", Optional.ofNullable(clockPOList).isPresent() && clockPOList.size() > 0);
-    boolean present = Optional.ofNullable(clockPOList).isPresent() && clockPOList.size() > 0;
+    // 判断今天是否已经打卡 selectCount > 0 ? true : false
+    Integer selectCount = baseMapper.selectCount(new QueryWrapper<ClockPO>().likeRight("created_time", new Date(System.currentTimeMillis())));
+    boolean present = selectCount > 0 ? true : false;
     // 打卡
     try {
       Thread thread = new Thread(() -> {
-        clockInfoList.stream().forEach(item -> {
+        clockInfoList.forEach(item -> {
           ClockPO clockPO = new ClockPO();
-          BeanUtils.copyProperties(
-            present ? CommonEntityUtil.updateCommonEntity(loginUserId)
-              : CommonEntityUtil.createCommonEntity(loginUserId), clockPO);
+          BeanUtils.copyProperties(present ? CommonEntityUtil.updateCommonEntity(loginUserId) : CommonEntityUtil.createCommonEntity(loginUserId), clockPO);
           BeanUtils.copyProperties(item, clockPO);
           clockPO.setUserId(Long.parseLong(loginUserId));
           if (present) baseMapper.updateById(clockPO); else baseMapper.insert(clockPO);
@@ -115,5 +130,15 @@ public class ClockServiceImpl extends ServiceImpl<ClockMapper, ClockPO> implemen
   public IPage<ClockRecordPO> queryAllClockInfo(IPage<ClockRecordPO> page) {
     IPage<ClockRecordPO> clockRecordPage = clockRecordMapper.selectPage(page, new QueryWrapper<ClockRecordPO>().orderByDesc("created_time"));
     return clockRecordPage;
+  }
+
+  /**
+   * 查看所有人的打卡内容 根据打卡事件排序并分页
+   * @param page 分页信息
+   * @return 所有人的打卡内容
+   */
+  @Override
+  public IPage<ClockPO> queryClockContent(IPage<ClockPO> page) {
+    return clockMapper.selectPage(page, new QueryWrapper<ClockPO>().orderByDesc("created_time"));
   }
 }

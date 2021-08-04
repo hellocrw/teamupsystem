@@ -24,8 +24,8 @@ public class TestController {
   private JedisPool jedisPool;
 
   @GetMapping("demo")
-  public String demo() {
-    return "demo";
+  public ResponseEntity<ResultVo> demo() {
+    return new ResponseEntity<>(new ResultVo(200, "success", "demo"), HttpStatus.OK);
   }
 
   @GetMapping("jedisDemo")

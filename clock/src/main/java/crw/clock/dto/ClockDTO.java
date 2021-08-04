@@ -9,5 +9,5 @@ public class ClockDTO {
 
   private String clockContent;
 
-  private String status;
+  private Boolean status;
 }

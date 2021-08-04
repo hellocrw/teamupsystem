@@ -5,10 +5,10 @@ spring:
   application:
     name: clock
   datasource:
-    #    type: com.mysql.cj.jdbc.MysqlDataSource
+    # type: com.mysql.cj.jdbc.MysqlDataSource
     # mysql驱动类
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://121.5.75.237:3306/ClockSystem?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://8.129.110.202:3306/ClockSystem?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: hellocrw.1103
 mybatis-plus:

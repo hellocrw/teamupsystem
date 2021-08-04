@@ -43,6 +43,6 @@ public class OrderConsumerDemo01 {
             }
         });
         consumer.start();
-        System.out.println("order consumer started ...");
+        System.out.println("order client started ...");
     }
 }

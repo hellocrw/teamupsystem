@@ -35,7 +35,7 @@ public class UserController {
   public ResponseEntity<ResultVo> login(@RequestBody UserDTO userDto, HttpServletRequest httpRequest, HttpServletResponse response) {
     LoginInfoVo loginInfoVo = userService.login(userDto, httpRequest);
     response.setHeader("token", loginInfoVo.getToken());
-    return new ResponseEntity<>(new ResultVo(200, "登录成功", true), HttpStatus.OK);
+    return new ResponseEntity<>(new ResultVo(200, "登录成功", loginInfoVo), HttpStatus.OK);
   }
 
   /**
